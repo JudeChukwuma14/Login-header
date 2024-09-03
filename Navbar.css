@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80px;
+    width: 100%;
+    background-color: skyblue;
+}
+.maindiv a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.maindiv .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.maindiv .logo h1{
+    margin: 0;
+    padding: 0;
+}

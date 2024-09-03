@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.logo h1{
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+.allLink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.allLink a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+.allLink button{
+    border: 2px solid white ;
+    background: none;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+}
